@@ -1,0 +1,65 @@
+/* General Page Styles */
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background: linear-gradient(135deg, #9b59b6, #f8c8dc); /* purple to sakura pink */
+  color: #fff;
+  text-align: center;
+}
+
+header {
+  padding: 2rem 1rem;
+  background: rgba(0,0,0,0.2);
+}
+
+header h1 {
+  font-size: 2.5rem;
+  margin: 0.5rem 0;
+}
+
+header p {
+  font-size: 1.2rem;
+}
+
+/* HNTI Directory Grid */
+.hnti-directory {
+  padding: 2rem 1rem;
+}
+
+.hnti-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 1rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.hnti-btn {
+  display: block;
+  background: rgba(255, 255, 255, 0.2);
+  color: #fff;
+  padding: 1rem;
+  border-radius: 10px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.hnti-btn:hover {
+  background: rgba(255, 255, 255, 0.4);
+  transform: scale(1.05);
+}
+
+/* Page Specific Elements */
+.page-content {
+  padding: 2rem;
+  max-width: 1000px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.page-content img {
+  max-width: 100%;
+  border-radius: 10px;
+  margin-bottom: 1rem;
+}
